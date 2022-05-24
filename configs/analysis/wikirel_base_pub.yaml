@@ -1,0 +1,52 @@
+tsr: ['', 'x']
+ez_nr: ['{}/kneser_ney_eval_from_trace_tsr_nans_removed.pkl', 'TT']
+
+bnc_freq : ['{}/bnc_freq_wiki_rel_without_zuco_bnc_freq_evaluation.pkl', 'x']
+bnc_freq_prob : ['{}/bnc_freq_wiki_rel_without_zuco_bnc_freq_evaluation.pkl', 'p_word']
+
+cnn0.50: ['{}/cnn_mfs_wiki_rel_without_zuco_None_TSR_relevances0.5_evaluation.pkl', 'x_abs']
+
+sattn: ['{}/self_attention_wiki_rel_without_zuco_None_TSR_attention_evaluation.pkl', 'x']
+sattn_rels_0.25: ['{}/self_attention_wiki_rel_without_zuco_None_TSR_relevances0.25_evaluation.pkl', 'x_abs']
+
+
+# BERT BASE
+base_bert_flow_0: ['{}/bert_wiki_rel_without_zuco_bert-base-uncased_untuned_bert_evaluation.pkl', 'x_flow_0']
+base_bert_flow_5: ['{}/bert_wiki_rel_without_zuco_bert-base-uncased_untuned_bert_evaluation.pkl', 'x_flow_5']
+base_bert_flow_11: ['{}/bert_wiki_rel_without_zuco_bert-base-uncased_untuned_bert_evaluation.pkl', 'x_flow_11']
+
+fine_bert_flow_0: ['{}/bert_wiki_rel_without_zuco_bert-base-uncased_finetuned_bert_evaluation.pkl', 'x_flow_0']
+fine_bert_flow_5: ['{}/bert_wiki_rel_without_zuco_bert-base-uncased_finetuned_bert_evaluation.pkl', 'x_flow_5']
+fine_bert_flow_11: ['{}/bert_wiki_rel_without_zuco_bert-base-uncased_finetuned_bert_evaluation.pkl', 'x_flow_11']
+
+
+# BERT large
+large_bert_flow_0: ['{}/bert_wiki_rel_without_zuco_bert-large-uncased_untuned_bert_evaluation.pkl', 'x_flow_0']
+large_bert_flow_11: ['{}/bert_wiki_rel_without_zuco_bert-large-uncased_untuned_bert_evaluation.pkl', 'x_flow_11']
+large_bert_flow_23: ['{}/bert_wiki_rel_without_zuco_bert-large-uncased_untuned_bert_evaluation.pkl', 'x_flow_23']
+
+
+fine_large_bert_flow_0: ['{}/bert_wiki_rel_without_zuco_bert-large-uncased_finetuned_bert_evaluation.pkl', 'x_flow_0']
+fine_large_bert_flow_11: ['{}/bert_wiki_rel_without_zuco_bert-large-uncased_finetuned_bert_evaluation.pkl', 'x_flow_11']
+fine_large_bert_flow_23: ['{}/bert_wiki_rel_without_zuco_bert-large-uncased_finetuned_bert_evaluation.pkl', 'x_flow_23']
+
+
+# ROBERTA
+base_roberta_flow_0: ['{}/roberta-base_wiki_rel_without_zuco_roberta-base_untuned_roberta_evaluation.pkl', 'x_flow_0']
+base_roberta_flow_5: ['{}/roberta-base_wiki_rel_without_zuco_roberta-base_untuned_roberta_evaluation.pkl', 'x_flow_5']
+base_roberta_flow_11: ['{}/roberta-base_wiki_rel_without_zuco_roberta-base_untuned_roberta_evaluation.pkl', 'x_flow_11']
+
+
+# T5
+base_t5_flow_0: ['{}/t5-base_wiki_rel_without_zuco_t5_evaluation.pkl', 'x_flow_0']
+base_t5_flow_5: ['{}/t5-base_wiki_rel_without_zuco_t5_evaluation.pkl', 'x_flow_5']
+base_t5_flow_11: ['{}/t5-base_wiki_rel_without_zuco_t5_evaluation.pkl', 'x_flow_11']
+
+
+# Oracle cases
+bert_last: ['{}/bert_wiki_rel_without_zuco_bert-base-uncased_untuned_bert_evaluation.pkl', 'x_last']
+fine_bert_last: ['{}/bert_wiki_rel_without_zuco_bert-base-uncased_finetuned_bert_evaluation.pkl', 'x_last']
+large_bert_last: ['{}/bert_wiki_rel_without_zuco_bert-large-uncased_untuned_bert_evaluation.pkl', 'x_last']
+fine_large_bert_last: ['{}/bert_wiki_rel_without_zuco_bert-large-uncased_finetuned_bert_evaluation.pkl', 'x_last']
+roberta_last: ['{}/roberta-base_wiki_rel_without_zuco_roberta-base_untuned_roberta_evaluation.pkl', 'x_last']
+t5_last: ['{}/t5-base_wiki_rel_without_zuco_t5_evaluation.pkl', 'x_last']

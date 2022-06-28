@@ -1,6 +1,6 @@
 #!/bin/bash
 
-srilm_bin="/home/oeberle/srilm/lm/bin/i686-m64"
+srilm_bin="/home/srilm/lm/bin/i686-m64"
 order=5
 
 # Assumes an already trained KN model, here on the 1 Billion corpus

@@ -12,6 +12,10 @@ path to the directory containing the textsaliency data, e.g.
 directory has to contain up to three subdirectories: `datasets`, `experiments`, 
 and `models`. 
 
+## Data
+Download the data for our analysis using `get_osf_data.sh'. The resulting folders contain all data necessary to reproduce our results.
+
+
 Added   
 `model_output`, `eval_folder`, `zuco_files` where paths are added for dfs going 
 into run_correlation, run_analysis and where the zuco files are stored
